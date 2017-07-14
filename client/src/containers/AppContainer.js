@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import App from '../components/App';
 import serialize from "form-serialize";
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = "https://voyage-livre-63960.herokuapp.com";
 
 class AppContainer extends Component{
   constructor() {
