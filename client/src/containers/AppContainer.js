@@ -16,7 +16,6 @@ class AppContainer extends Component{
   }
 
   componentDidMount() {
-    console.log('BASE URL IS: ', BASE_URL);
     let geo = new Promise((resolve, reject) => {
       navigator.geolocation.getCurrentPosition((success, error) => {
         resolve(success);
